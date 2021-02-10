@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="classes">
+<listeners> 
+ <listener  class-name="utils.Listeners"/>
+ </listeners>
+  <test name="Test">
+    <classes>
+    <class name="test_cases.setup_docker_Grid"/>
+      <class name="test_cases.Invoke_Firefox"/>
+      <class name="test_cases.Invoke_opera"/>
+      <class name="test_cases.Invoke_opera2"/>
+      <class name="test_cases.invoke_Chrome"/>
+      <class name="test_cases.Invoke_Firefox2"/>
+      <class name="test_cases.invoke_Chrome2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

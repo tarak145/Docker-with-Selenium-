@@ -1,0 +1,6 @@
+20:39:21.314 [pool-2-thread-5] INFO  test_cases.Invoke_Firefox2 - successfully Extracted Title
+20:39:23.865 [pool-2-thread-2] INFO  test_cases.Invoke_opera - successfully launched the url
+20:39:29.153 [pool-2-thread-2] INFO  test_cases.Invoke_opera - successfully Extracted Title
+20:39:31.159 [pool-2-thread-3] INFO  test_cases.Invoke_opera2 - successfully launched the url
+20:39:36.334 [pool-2-thread-3] INFO  test_cases.Invoke_opera2 - successfully Extracted Title
+20:39:54.041 [pool-2-thread-4] INFO  test_cases.invoke_Chrome2 - successfully initiated Driver

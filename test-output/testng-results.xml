@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="162376" started-at="2021-02-05T11:11:22Z" finished-at="2021-02-05T11:14:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="162376" started-at="2021-02-05T11:11:22Z" finished-at="2021-02-05T11:14:04Z">
+      <class name="test_cases.Invoke_opera">
+        <test-method status="PASS" signature="Invoke_Opera_Docker()[pri:0, instance:test_cases.Invoke_opera@48bb62]" name="Invoke_Opera_Docker" duration-ms="94054" started-at="2021-02-05T16:41:57Z" finished-at="2021-02-05T16:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoke_Opera_Docker -->
+      </class> <!-- test_cases.Invoke_opera -->
+      <class name="test_cases.invoke_Chrome2">
+        <test-method status="PASS" signature="Invoke_Chrome2_Docker()[pri:0, instance:test_cases.invoke_Chrome2@402c4085]" name="Invoke_Chrome2_Docker" duration-ms="30196" started-at="2021-02-05T16:43:09Z" finished-at="2021-02-05T16:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoke_Chrome2_Docker -->
+      </class> <!-- test_cases.invoke_Chrome2 -->
+      <class name="test_cases.setup_docker_Grid">
+        <test-method status="PASS" signature="startdockergrid()[pri:0, instance:test_cases.setup_docker_Grid@5524cca1]" name="startdockergrid" is-config="true" duration-ms="35024" started-at="2021-02-05T16:41:22Z" finished-at="2021-02-05T16:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdockergrid -->
+        <test-method status="PASS" signature="stopdockergrid()[pri:0, instance:test_cases.setup_docker_Grid@5524cca1]" name="stopdockergrid" is-config="true" duration-ms="25048" started-at="2021-02-05T16:43:39Z" finished-at="2021-02-05T16:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdockergrid -->
+      </class> <!-- test_cases.setup_docker_Grid -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

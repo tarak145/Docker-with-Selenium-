@@ -1,0 +1,57 @@
+selenium-hub:
+  restart: always
+  image: selenium/hub:latest
+  ports:
+    - "4444:4444"
+#selenium-chrome
+selenium-chrome:
+  restart: always
+  image: selenium/node-chrome-debug
+  ports:
+    - "4800"
+  stdin_open: true
+  links:
+    - selenium-hub:hub
+#selenium-chrome
+selenium-chrome2:
+  restart: always
+  image: selenium/node-chrome-debug
+  ports:
+    - "4801"
+  stdin_open: true
+  links:
+    - selenium-hub:hub
+#selenium-firefox
+selenium-firefox:
+  restart: always
+  image: selenium/node-firefox-debug
+  ports:
+    - "4802"
+  links:
+    - selenium-hub:hub
+#selenium-firefox2
+selenium-firefox2:
+  restart: always
+  image: selenium/node-firefox-debug
+  ports:
+    - "4803"
+  links:
+    - selenium-hub:hub
+#selenium-opera
+selenium-opera:
+  restart: always
+  image: selenium/node-opera-debug
+  ports:
+    - "4804"
+  links:
+    - selenium-hub:hub
+#selenium-opera
+selenium-opera2:
+  restart: always
+  image: selenium/node-opera-debug
+  ports:
+    - "4805"
+  links:
+    - selenium-hub:hub
+    
+    

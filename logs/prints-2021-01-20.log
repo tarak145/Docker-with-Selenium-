@@ -1,0 +1,6 @@
+16:43:55.359 [pool-2-thread-3] INFO  test_cases.Invoke_opera2 - successfully initiated Driver
+16:44:20.198 [pool-2-thread-1] INFO  test_cases.Invoke_Firefox - successfully Entered the Text in Text Field
+16:44:20.403 [pool-2-thread-1] INFO  test_cases.Invoke_Firefox - successfully Extracted Title
+16:44:22.455 [pool-2-thread-2] INFO  test_cases.Invoke_opera - successfully launched the url
+16:44:27.698 [pool-2-thread-2] INFO  test_cases.Invoke_opera - successfully Extracted Title
+16:44:33.830 [pool-2-thread-4] INFO  test_cases.invoke_Chrome - successfully Extracted Title

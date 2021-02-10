@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="utils.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="test_cases.invoke_Chrome">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="Invoke_Chrome1_Docker"/>
+        </methods>
+      </class> <!-- test_cases.invoke_Chrome -->
+      <class name="test_cases.invoke_Chrome2">
+        <methods>
+          <include name="Invoke_Chrome2_Docker"/>
+        </methods>
+      </class> <!-- test_cases.invoke_Chrome2 -->
+      <class name="test_cases.Invoke_Firefox">
+        <methods>
+          <include name="Invoke_Firefox_Docker"/>
+          <include name="initializeBrowser"/>
+          <include name="capabilities"/>
+        </methods>
+      </class> <!-- test_cases.Invoke_Firefox -->
+      <class name="test_cases.Invoke_opera2">
+        <methods>
+          <include name="Invoke_Opera2_Docker"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- test_cases.Invoke_opera2 -->
+      <class name="test_cases.setup_docker_Grid">
+        <methods>
+          <include name="stopdockergrid"/>
+          <include name="startdockergrid"/>
+        </methods>
+      </class> <!-- test_cases.setup_docker_Grid -->
+      <class name="test_cases.Invoke_Firefox2">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="Invoke_Firefox2_Docker"/>
+        </methods>
+      </class> <!-- test_cases.Invoke_Firefox2 -->
+      <class name="test_cases.Invoke_opera">
+        <methods>
+          <include name="Invoke_Opera_Docker"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- test_cases.Invoke_opera -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

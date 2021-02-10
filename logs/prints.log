@@ -1,0 +1,3 @@
+16:43:30.431 [pool-2-thread-2] INFO  test_cases.Invoke_opera - successfully Extracted Title
+16:43:34.890 [pool-2-thread-6] INFO  test_cases.invoke_Chrome2 - successfully launched the url
+16:43:39.668 [pool-2-thread-6] INFO  test_cases.invoke_Chrome2 - successfully Extracted Title
